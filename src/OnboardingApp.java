@@ -29,7 +29,7 @@ public class OnboardingApp {
             System.out.print("Set 4-digit PIN: ");
             int pin = scanner.nextInt();
 
-            // 3. Instantiation
+            //Instantiation
             Client user = new Client(id, fName, lName, age, cardNum, bal, pin, false);
 
             // 4. Operations

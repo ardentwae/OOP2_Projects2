@@ -1,3 +1,3 @@
 Lecturer: Doron Williams
-Project information
+Project information: 
  Group members : Edwin Supré, Sherrian Brown,Shakira Mccubbin
