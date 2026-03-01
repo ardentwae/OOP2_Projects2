@@ -11,7 +11,7 @@ public class Client {
 
         // Validation: Age must be 18+
         if (age < 18) {
-            throw new IllegalArgumentException("Client must be 18 or older to onboard.");
+            throw new IllegalArgumentException("Client must be 18 or older to partake.");
         }
 
         this.idNumber = id;

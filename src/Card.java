@@ -1,11 +1,11 @@
 public class Card {
-    // Attributes from the UML Diagram
-    private String cardNumber; // String is better for masking logic
+    // Attributes were taken from the diagram
+    private String cardNumber;
     private double balance;
     private int pin;
     private boolean status;
 
-    // Constructor: Parameterized to initialize all fields
+
     public Card(String cardNumber, double balance, int pin, boolean status) {
         this.cardNumber = cardNumber;
         this.balance = balance;
@@ -30,9 +30,9 @@ public class Card {
     }
 
     // Task A & Bonus: Reporting with Masking
-    @Override
-    public String toString() {
-        String masked = "XXXX-XXXX-XXXX-" + cardNumber.substring(cardNumber.length() - 4);
-        return "Card Details: [Number: " + masked + ", Balance: $" + balance + ", Active: " + status + "]";
-    }
+//    @Override
+//    public String toString() {
+//        String masked = "XXXX-XXXX-XXXX-" + cardNumber.substring(cardNumber.length() - 4);
+//        return "Card Details: [Number: " + masked + ", Balance: $" + balance + ", Active: " + status + "]";
+//    }
 }
