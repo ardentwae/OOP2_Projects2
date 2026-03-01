@@ -12,5 +12,6 @@ Group Members
 | Sherrian Brown-- 2401010486 |
 | Shakira Mccubbin-- smccubbin16a@vtdi.edu.jm |
 
+
 Project Overview
 This project focuses on the integration of client data with banking card systems, simulating a digital banking environment.
