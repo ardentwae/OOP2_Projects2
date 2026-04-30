@@ -10,7 +10,7 @@ Group Members
 
 | Edwin Supre - 1817003960 |
 | Sherrian Brown-- 2401010486 |
-| Shakira Mccubbin-- smccubbin16a@vtdi.edu.jm |
+| Shakira Mccubbin-- 1600226186 |
 
 
 Project Overview
