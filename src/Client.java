@@ -7,7 +7,7 @@ public class Client {
 
     // Task B: Constructor with Composition & Validation
     public Client(int id, String fName, String lName, int age,
-                  String cardNum, double bal, int pin, boolean status) {
+                  int cardNum, double bal, int pin, boolean status) {
 
         // Validation: Age must be 18+
         if (age < 18) {
@@ -21,6 +21,41 @@ public class Client {
 
         // Initializing the Card object internally
         this.card = new Card(cardNum, bal, pin, status);
+    }
+
+    public void setIdNumber(int _idNumber) {
+        this.idNumber = _idNumber;
+    }
+
+    public int getIdNumber() {
+        return this.idNumber;
+    }
+
+    public void setFirstName(String _firstName) {
+        this.firstName = _firstName;
+    }
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public void setLastName(String _lastName) {
+        this.lastName = _lastName;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public void setAge(int _age) {
+        this.age = _age;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setCard(Card _card) {
+        this.card = _card;
     }
 
     // Helper to access the card from the Main app
